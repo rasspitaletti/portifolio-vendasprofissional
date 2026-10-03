@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Raul Spitaletti — Desenvolvimento de Sites Profissionais</title>
+<meta name="description" content="Sites institucionais, landing pages e lojas virtuais para clínicas, escritórios, profissionais autônomos e negócios locais. Navegue pelos projetos e fale comigo pelo WhatsApp.">
+<link rel="icon" type="image/jpeg" href="assets/img/raul-spitaletti.jpg">
+<link rel="apple-touch-icon" href="assets/img/raul-spitaletti.jpg">
+<meta name="theme-color" content="#0a0a0a">
+<meta name="author" content="Raul Spitaletti">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Raul Spitaletti — Desenvolvimento de Sites Profissionais">
+<meta property="og:description" content="Uma galeria de sites profissionais criados para diferentes negócios.">
+<meta property="og:site_name" content="Raul Spitaletti">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&family=Cormorant+Garamond:wght@500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="no-js">
+<script>document.body.classList.remove('no-js');</script>
+
+<div class="preloader" id="preloader" aria-hidden="true">
+  <span class="preloader-bar" id="preloaderBar"></span>
+  <span class="preloader-brand" data-config="brand">Raul Spitaletti</span>
+  <span class="preloader-count" id="preloaderCount">00</span>
+</div>
+
+<!-- HEADER -->
+<header class="site-header" id="header">
+  <div class="wrap header-inner">
+    <a href="#projetos" class="brand" aria-label="Início">
+      <span class="brand-mark"><img src="assets/img/raul-spitaletti.jpg" alt="Foto de Raul Spitaletti" width="40" height="40"></span>
+      <span data-config="brand">Raul Spitaletti</span>
+    </a>
+    <nav class="center-nav" aria-label="Principal">
+      <a href="#projetos" class="is-current">Projetos</a>
+      <span class="sep" aria-hidden="true"></span>
+      <a href="#servicos">Serviços</a>
+      <span class="sep" aria-hidden="true"></span>
+      <a href="#contato">Contato</a>
+    </nav>
+    <div class="header-right">
+      <a href="#" class="icon-btn" data-whatsapp aria-label="Falar pelo WhatsApp">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3.5 20.5l1.3-4.6A8.5 8.5 0 1 1 8.2 19.2L3.5 20.5z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 8.5c0 3 2.5 6.5 6.5 6.5l1-1.6-2-1-1 .8c-1-.4-2-1.4-2.4-2.4l.8-1-1-2L9 8.5z" fill="currentColor"/></svg>
+      </a>
+      <a href="#" class="icon-btn" id="igHeader" target="_blank" rel="noopener noreferrer" aria-label="Instagram" hidden>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg>
+      </a>
+      <a href="#contato" class="btn btn-outline header-cta">Quero meu site</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu" inert>
+  <nav aria-label="Menu mobile">
+    <a href="#projetos" style="--i:0"><small>01</small>Projetos</a>
+    <a href="#servicos" style="--i:1"><small>02</small>Serviços</a>
+    <a href="#processo" style="--i:2"><small>03</small>Processo</a>
+    <a href="#contato" style="--i:3"><small>04</small>Contato</a>
+  </nav>
+  <div class="mobile-menu-foot">
+    <a href="#" class="btn btn-white" data-whatsapp>Falar pelo WhatsApp</a>
+    <p><span data-config="role">Desenvolvedor Web</span> · <span data-config="location">São Paulo · Brasil</span></p>
+  </div>
+</div>
+
+<main>
+  <h1 class="sr-only">Raul Spitaletti — Sites profissionais para empresas e negócios</h1>
+
+  <!-- SHOWCASE -->
+  <section class="showcase" id="projetos" aria-label="Galeria de projetos">
+    <div class="sc-glow" id="scGlow" aria-hidden="true"></div>
+    <div class="wrap" id="showcase" role="region" aria-roledescription="carrossel" aria-label="Projetos">
+
+      <!-- linha do título -->
+      <div class="sc-head">
+        <div data-intro>
+          <p class="sc-eyebrow"><span>Projeto</span><span class="roll" id="pCounter"><span>01</span></span><span>/ <span id="pTotal">07</span></span><span aria-hidden="true">·</span><span id="pCatTop">—</span></p>
+          <h2 class="sc-title" data-anim id="pName">—</h2>
+        </div>
+        <div class="sc-head-actions" data-intro>
+          <button class="icon-btn prev" id="btnPrev" aria-label="Projeto anterior" data-cursor="Anterior">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M11 3L5 9l6 6" stroke="currentColor" stroke-width="1.7"/></svg>
+          </button>
+          <button class="icon-btn next" id="btnNext" aria-label="Próximo projeto" data-cursor="Próximo">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M7 3l6 6-6 6" stroke="currentColor" stroke-width="1.7"/></svg>
+          </button>
+          <a class="btn btn-white" id="pVisit" href="#" target="_blank" rel="noopener noreferrer" data-cursor="Abrir">
+            <span id="pVisitText">Visite o site</span>
+            <span class="ico" aria-hidden="true">
+              <svg viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M4.5 3H11v6.5" stroke="currentColor" stroke-width="1.6"/></svg>
+              <svg viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M4.5 3H11v6.5" stroke="currentColor" stroke-width="1.6"/></svg>
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <!-- preview + painel -->
+      <div class="sc-grid">
+        <div class="sc-stage" data-intro>
+          <div class="sc-view" id="scView" role="img" aria-label="Prévia do projeto" data-cursor="Abrir">
+            <div class="sc-layers" id="scLayers"></div>
+            <span class="pv-tag left" id="pTag">—</span>
+            <span class="pv-tag right" id="pStatus">Projeto real</span>
+            <div class="pv-filters" id="filters" role="group" aria-label="Filtrar projetos por categoria"></div>
+          </div>
+        </div>
+
+        <aside class="sc-side">
+          <article class="card card-info" id="scInfo" data-intro>
+            <svg class="card-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2.5" y="4" width="19" height="16" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M2.5 8.5h19" stroke="currentColor" stroke-width="1.5"/><circle cx="5.5" cy="6.3" r=".8" fill="currentColor"/><circle cx="8" cy="6.3" r=".8" fill="currentColor"/></svg>
+            <p class="sc-desc" id="pDesc" data-anim>—</p>
+            <div class="sc-cols" data-anim>
+              <div><h3>Recursos</h3><ul id="pTags"></ul></div>
+              <div><h3>Tipo</h3><ul id="pTypeList"></ul></div>
+            </div>
+          </article>
+          <div class="card card-cta" data-intro>
+            <h3>Quer um site assim para o seu negócio?</h3>
+            <p>Conte o que você faz e eu mostro como seu site pode ficar.</p>
+            <button type="button" class="btn btn-outline" id="pLike">
+              Falar pelo WhatsApp
+              <span class="ico" aria-hidden="true">
+                <svg viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M4.5 3H11v6.5" stroke="currentColor" stroke-width="1.6"/></svg>
+                <svg viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M4.5 3H11v6.5" stroke="currentColor" stroke-width="1.6"/></svg>
+              </span>
+            </button>
+          </div>
+        </aside>
+      </div>
+
+      <!-- progresso -->
+      <div class="sc-foot" data-intro>
+        <div class="segments" id="segments" role="tablist" aria-label="Escolher projeto"></div>
+        <div class="sc-next">
+          <span class="kbd" aria-hidden="true"><kbd>←</kbd><kbd>→</kbd></span>
+          <button id="nextLabel" type="button">Próximo — <span id="pNextName"></span> →</button>
+        </div>
+      </div>
+      <p class="sr-only" id="scLive" aria-live="polite"></p>
+
+      <!-- mais projetos -->
+      <div class="more">
+        <div class="more-head" data-reveal>
+          <h2>Mais projetos</h2>
+          <span id="moreCount"></span>
+        </div>
+        <div class="thumbs" id="thumbs"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="servicos" aria-labelledby="servTitle">
+    <div class="wrap">
+      <div class="section-head">
+        <div data-reveal>
+          <p class="label"><span class="num">(02)</span> Serviços</p>
+          <h2 class="section-title" id="servTitle">O que eu<br><em>desenvolvo.</em></h2>
+        </div>
+        <p class="section-intro" data-reveal>Do site completo da empresa a uma página única para divulgar um serviço — cada projeto é feito sob medida para o seu negócio.</p>
+      </div>
+      <ul class="services-list" id="servicesList" data-reveal-stagger></ul>
+    </div>
+  </section>
+
+  <!-- WHY -->
+  <section class="section" aria-labelledby="whyTitle">
+    <div class="wrap why-grid">
+      <div class="why-sticky" data-reveal>
+        <p class="label"><span class="num">(03)</span> Como posso ajudar</p>
+        <h2 class="section-title" id="whyTitle">Por que ter um<br><em>site profissional?</em></h2>
+        <p>Redes sociais ajudam, mas um site é o endereço oficial do seu negócio — um lugar que é seu, organizado do seu jeito.</p>
+      </div>
+      <ul class="why-list" id="whyList" data-reveal-stagger></ul>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section" id="processo" aria-labelledby="procTitle">
+    <div class="wrap">
+      <div class="section-head">
+        <div data-reveal>
+          <p class="label"><span class="num">(04)</span> Processo</p>
+          <h2 class="section-title" id="procTitle">Como<br><em>funciona.</em></h2>
+        </div>
+        <p class="section-intro" data-reveal>Um processo simples e transparente, com você acompanhando cada etapa.</p>
+      </div>
+      <div class="steps" id="steps" role="list">
+        <span class="steps-line" aria-hidden="true"><i id="stepsFill"></i></span>
+        <div class="step" data-step role="listitem"><span class="k">01</span><h3>Conversa</h3><p>Entendo seu negócio, seu público e o que você precisa que o site faça.</p></div>
+        <div class="step" data-step role="listitem"><span class="k">02</span><h3>Planejamento</h3><p>Definimos juntos a estrutura, o conteúdo e a direção visual.</p></div>
+        <div class="step" data-step role="listitem"><span class="k">03</span><h3>Desenvolvimento</h3><p>O site é desenvolvido, revisado com você e ajustado nos detalhes.</p></div>
+        <div class="step" data-step role="listitem"><span class="k">04</span><h3>Publicação</h3><p>Depois da sua aprovação, o projeto é colocado no ar.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta" aria-labelledby="ctaTitle">
+    <div class="wrap">
+      <div class="cta-box" data-reveal>
+        <p class="label">Vamos conversar</p>
+        <h2 id="ctaTitle">Seu negócio também pode ter uma presença digital <em>profissional.</em></h2>
+        <p>Se você precisa de um site para apresentar sua empresa, divulgar seus serviços ou vender pela internet, vamos conversar.</p>
+        <div class="cta-actions">
+          <a href="#contato" class="btn btn-white">Quero criar meu site</a>
+          <a href="#" class="btn btn-outline" data-whatsapp>Falar pelo WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contato" aria-labelledby="contactTitle">
+    <div class="wrap">
+      <p class="label" data-reveal><span class="num">(05)</span> Contato</p>
+      <h2 class="contact-title" id="contactTitle" data-reveal>Vamos criar seu<br><em>próximo site?</em></h2>
+      <ul class="channels" id="channels" data-reveal-stagger></ul>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <span class="brand"><span class="brand-mark"><img src="assets/img/raul-spitaletti.jpg" alt="Foto de Raul Spitaletti" width="40" height="40"></span><span data-config="brand">Raul Spitaletti</span></span>
+      <small data-config="role">Desenvolvedor Web</small>
+    </div>
+    <nav aria-label="Rodapé">
+      <ul class="footer-links">
+        <li><a class="link-u" href="#projetos">Projetos</a></li>
+        <li><a class="link-u" href="#servicos">Serviços</a></li>
+        <li><a class="link-u" href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="footer-copy">
+      <span>© <span id="year">2026</span> — Todos os direitos reservados.</span>
+      <a href="#projetos" class="link-u">Topo ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
