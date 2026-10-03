@@ -149,7 +149,9 @@ const current = () => state.list[state.index];
 /* Escala das prévias (o mock é renderizado em 1280px e reduzido) */
 function fitPreviews() {
   const w = els.view.clientWidth, h = els.view.clientHeight;
-  const sc = w / 1280;
+  const base = window.innerWidth <= 700 ? 860 : 1280; // no celular a prévia usa uma largura menor para o texto ficar legível
+  const sc = w / base;
+  els.view.style.setProperty('--mw', base + 'px');
   els.view.style.setProperty('--s', sc.toFixed(5));
   els.view.style.setProperty('--mh', Math.max(800, Math.ceil(h / sc)) + 'px');
   $$('.thumb-view', els.thumbs).forEach(v => v.style.setProperty('--ts', (v.clientWidth / 1280).toFixed(5)));
