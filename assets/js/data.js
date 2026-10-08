@@ -29,6 +29,32 @@ const CONFIG = {
    ========================================================= */
 const projects = [
   {
+    id: 102, status: 'real',
+    name: 'Prime Imóveis',
+    category: 'Imobiliário', type: 'Site de imobiliária', location: 'São Paulo — SP',
+    description: 'Site para imobiliária boutique em São Paulo: busca com filtros por tipo, região, preço e quartos, imóveis em destaque e contato com um corretor pelo WhatsApp.',
+    url: 'https://prime-imoveis-bice.vercel.app', screenshot: '', embed: false, autoScreenshot: false,
+    image: 'https://images.unsplash.com/photo-1748063578185-3d68121b11ff?auto=format&fit=crop&w=2000&q=80',
+    tags: ['Busca com filtros', 'Imóveis em destaque', 'Página por imóvel', 'WhatsApp'],
+    theme: { bg: '#080807', fg: '#f4f1ec', accent: '#c9a46c', button: '#c9a46c', buttonText: '#080807', display: 'sans' },
+    mock: {
+      layout: 'hero', logoTop: 'PRIME', logoSub: 'IMÓVEIS',
+      nav: ['Comprar', 'Alugar', 'Imóveis', 'Lançamentos', 'Sobre nós', 'Contato'], pill: 'Fale com um corretor',
+      kicker: 'Imobiliária boutique · São Paulo',
+      headline: 'Encontre o imóvel ideal para você', headlineEm: '',
+      text: 'Imóveis selecionados para quem busca qualidade, localização e segurança.',
+      cta: 'Fale com um corretor', cta2: 'Ver todos os imóveis',
+      aside: ['Busca', 'Tipo · Região · Preço · Quartos'],
+      sectionTitle: 'Encontre o imóvel que procura',
+      photos: [
+        ['Apartamentos', 'https://images.unsplash.com/photo-1624204386084-dd8c05e32226?auto=format&fit=crop&w=760&h=520&q=72'],
+        ['Casas', 'https://images.unsplash.com/photo-1706164971302-e30c0640cc3b?auto=format&fit=crop&w=760&h=520&q=72'],
+        ['Coberturas', 'https://images.unsplash.com/photo-1757924330358-a48d65664dac?auto=format&fit=crop&w=760&h=520&q=72'],
+        ['Condomínios', 'https://images.unsplash.com/photo-1775112077888-8fa36e9bbc51?auto=format&fit=crop&w=760&h=520&q=72']
+      ]
+    }
+  },
+  {
     id: 101, status: 'real',
     name: 'Arpoador Imóveis',
     category: 'Imobiliário', type: 'Site de imobiliária', location: 'Zona Oeste — São Paulo',
@@ -55,28 +81,28 @@ const projects = [
     }
   },
   {
-    id: 102, status: 'real',
-    name: 'Prime Imóveis',
-    category: 'Imobiliário', type: 'Site de imobiliária', location: 'São Paulo — SP',
-    description: 'Site para imobiliária boutique em São Paulo: busca com filtros por tipo, região, preço e quartos, imóveis em destaque e contato com um corretor pelo WhatsApp.',
-    url: 'https://prime-imoveis-bice.vercel.app', screenshot: '', embed: false, autoScreenshot: false,
-    image: 'https://images.unsplash.com/photo-1748063578185-3d68121b11ff?auto=format&fit=crop&w=2000&q=80',
-    tags: ['Busca com filtros', 'Imóveis em destaque', 'Página por imóvel', 'WhatsApp'],
-    theme: { bg: '#080807', fg: '#f4f1ec', accent: '#c9a46c', button: '#c9a46c', buttonText: '#080807', display: 'sans' },
+    id: 103, status: 'real',
+    name: 'Vinicius Ribeiro',
+    category: 'Imobiliário', type: 'Site de corretor', location: 'Araçatuba — SP',
+    description: 'Site para corretor de imóveis em Araçatuba: curadoria de imóveis em destaque, serviços de compra, venda, locação e consultoria, e agendamento de visitas direto com o corretor.',
+    url: 'https://vinicius-imoveis.vercel.app', screenshot: '', embed: false, autoScreenshot: false,
+    image: 'https://vinicius-imoveis.vercel.app/hero-vinicius.jpg',
+    tags: ['Imóveis em destaque', 'Agendamento de visitas', 'WhatsApp', 'Marca pessoal'],
+    theme: { bg: '#0d0d0c', fg: '#efede6', accent: '#c8b48c', button: '#efede6', buttonText: '#0d0d0c', display: 'serif' },
     mock: {
-      layout: 'hero', logoTop: 'PRIME', logoSub: 'IMÓVEIS',
-      nav: ['Comprar', 'Alugar', 'Imóveis', 'Lançamentos', 'Sobre nós', 'Contato'], pill: 'Fale com um corretor',
-      kicker: 'Imobiliária boutique · São Paulo',
-      headline: 'Encontre o imóvel ideal para você', headlineEm: '',
-      text: 'Imóveis selecionados para quem busca qualidade, localização e segurança.',
-      cta: 'Fale com um corretor', cta2: 'Ver todos os imóveis',
-      aside: ['Busca', 'Tipo · Região · Preço · Quartos'],
-      sectionTitle: 'Encontre o imóvel que procura',
+      layout: 'hero', logoTop: 'VINICIUS RIBEIRO', logoSub: 'CORRETOR DE IMÓVEIS',
+      nav: ['Imóveis', 'Sobre', 'Serviços', 'Contato'], pill: 'Agendar visita',
+      kicker: 'Araçatuba e região',
+      headline: 'O imóvel certo', headlineEm: 'para o seu próximo capítulo.',
+      text: 'Uma curadoria de espaços para viver bem, investir com segurança e construir novas histórias.',
+      cta: 'Falar com o corretor', cta2: 'Explorar imóveis',
+      aside: ['Corretor', 'CRECI/SP 307447-F'],
+      sectionTitle: 'Imóveis em destaque.',
       photos: [
-        ['Apartamentos', 'https://images.unsplash.com/photo-1624204386084-dd8c05e32226?auto=format&fit=crop&w=760&h=520&q=72'],
-        ['Casas', 'https://images.unsplash.com/photo-1706164971302-e30c0640cc3b?auto=format&fit=crop&w=760&h=520&q=72'],
-        ['Coberturas', 'https://images.unsplash.com/photo-1757924330358-a48d65664dac?auto=format&fit=crop&w=760&h=520&q=72'],
-        ['Condomínios', 'https://images.unsplash.com/photo-1775112077888-8fa36e9bbc51?auto=format&fit=crop&w=760&h=520&q=72']
+        ['Casa Ipê', 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=760&h=520&q=72'],
+        ['Residência Araucária', 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=760&h=520&q=72'],
+        ['Solar das Palmeiras', 'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=760&h=520&q=72'],
+        ['Casa Jardim', 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=760&h=520&q=72']
       ]
     }
   },
