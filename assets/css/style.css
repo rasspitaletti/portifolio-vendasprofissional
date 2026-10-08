@@ -240,7 +240,7 @@ body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:9998;o
 .mock--hero .mh-photo div{height:230px;background:linear-gradient(135deg,var(--m-ac),var(--m-bg))}
 .mock--hero .mh-photo img{width:100%;height:100%;object-fit:cover}
 .mock--hero .mh-dark{color:#fff}
-.mock--hero .mh-dark .m-media::after{background:linear-gradient(90deg,rgba(30,18,12,.92) 0%,rgba(30,18,12,.72) 50%,rgba(30,18,12,.35) 100%),linear-gradient(180deg,transparent 75%,var(--m-bg) 100%)}
+.mock--hero .mh-dark .m-media::after{background:linear-gradient(90deg,color-mix(in srgb,var(--m-tint,#1e120c) 92%,transparent) 0%,color-mix(in srgb,var(--m-tint,#1e120c) 72%,transparent) 50%,color-mix(in srgb,var(--m-tint,#1e120c) 30%,transparent) 100%),linear-gradient(180deg,transparent 75%,var(--m-bg) 100%)}
 .mock--hero .mh-dark .m-kicker{color:#fff}
 .mock--hero .mh-dark .m-btn.ghost{color:#fff;box-shadow:inset 0 0 0 1px rgba(255,255,255,.35);background:rgba(255,255,255,.08)}
 .mock--hero.sans .m-h,.mock--hero.sans .mh-sec-title,.mock--hero.sans .mh-logo b{font-family:var(--font);font-weight:600;letter-spacing:-.03em}

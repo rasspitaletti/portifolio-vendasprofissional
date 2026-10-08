@@ -66,7 +66,7 @@ function renderStatic() {
    ========================================================= */
 function themeStyle(p) {
   const t = p.theme || {};
-  return `--m-bg:${t.bg};--m-fg:${t.fg};--m-ac:${t.accent};--m-btn:${t.button || t.accent};--m-btnfg:${t.buttonText || t.bg};--m-line:${(t.fg || '#000') + '26'}`;
+  return `--m-bg:${t.bg};--m-fg:${t.fg};--m-ac:${t.accent};--m-btn:${t.button || t.accent};--m-btnfg:${t.buttonText || t.bg};--m-tint:${t.heroTint || '#1e120c'};--m-line:${(t.fg || '#000') + '26'}`;
 }
 function mockHero(p, lazy) {
   const m = p.mock || {};

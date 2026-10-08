@@ -29,6 +29,58 @@ const CONFIG = {
    ========================================================= */
 const projects = [
   {
+    id: 101, status: 'real',
+    name: 'Arpoador Imóveis',
+    category: 'Imobiliário', type: 'Site de imobiliária', location: 'Zona Oeste — São Paulo',
+    description: 'Site de imobiliária na Zona Oeste de São Paulo: busca de imóveis por tipo, vitrine de destaques com fotos grandes e contato direto com um consultor pelo WhatsApp.',
+    url: 'https://arpoador-imoveis.vercel.app', screenshot: '', embed: false, autoScreenshot: false,
+    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=85',
+    tags: ['Busca de imóveis', 'Vitrine de destaques', 'WhatsApp', 'SEO local'],
+    theme: { bg: '#f4f2ec', fg: '#1e211d', accent: '#d9c8a4', button: '#d9c8a4', buttonText: '#1e211d', display: 'serif', heroDark: true, heroTint: '#283027' },
+    mock: {
+      layout: 'hero', logoTop: 'Arpoador', logoSub: 'IMÓVEIS',
+      nav: ['Imóveis', 'Comprar', 'Alugar', 'Anuncie', 'Sobre', 'Contato'], pill: 'Falar no WhatsApp',
+      kicker: 'Imobiliária · Zona Oeste de São Paulo',
+      headline: 'Encontre o imóvel que combina com o seu', headlineEm: 'momento.',
+      text: 'Atendimento personalizado para você comprar, vender ou alugar em São Paulo com segurança, transparência e tranquilidade.',
+      cta: 'Ver imóveis', cta2: 'Falar com um consultor',
+      aside: ['Atendimento', 'Comprar · Vender · Alugar'],
+      sectionTitle: 'O imóvel certo para cada fase',
+      photos: [
+        ['Casas e sobrados', 'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=760&h=520&q=72'],
+        ['Apartamentos', 'https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=760&h=520&q=72'],
+        ['Terrenos', 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=760&h=520&q=72'],
+        ['Comerciais', 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=760&h=520&q=72']
+      ]
+    }
+  },
+  {
+    id: 102, status: 'real',
+    name: 'Prime Imóveis',
+    category: 'Imobiliário', type: 'Site de imobiliária', location: 'São Paulo — SP',
+    description: 'Site para imobiliária boutique em São Paulo: busca com filtros por tipo, região, preço e quartos, imóveis em destaque e contato com um corretor pelo WhatsApp.',
+    url: 'https://prime-imoveis-bice.vercel.app', screenshot: '', embed: false, autoScreenshot: false,
+    image: 'https://images.unsplash.com/photo-1748063578185-3d68121b11ff?auto=format&fit=crop&w=2000&q=80',
+    tags: ['Busca com filtros', 'Imóveis em destaque', 'Página por imóvel', 'WhatsApp'],
+    theme: { bg: '#080807', fg: '#f4f1ec', accent: '#c9a46c', button: '#c9a46c', buttonText: '#080807', display: 'sans' },
+    mock: {
+      layout: 'hero', logoTop: 'PRIME', logoSub: 'IMÓVEIS',
+      nav: ['Comprar', 'Alugar', 'Imóveis', 'Lançamentos', 'Sobre nós', 'Contato'], pill: 'Fale com um corretor',
+      kicker: 'Imobiliária boutique · São Paulo',
+      headline: 'Encontre o imóvel ideal para você', headlineEm: '',
+      text: 'Imóveis selecionados para quem busca qualidade, localização e segurança.',
+      cta: 'Fale com um corretor', cta2: 'Ver todos os imóveis',
+      aside: ['Busca', 'Tipo · Região · Preço · Quartos'],
+      sectionTitle: 'Encontre o imóvel que procura',
+      photos: [
+        ['Apartamentos', 'https://images.unsplash.com/photo-1624204386084-dd8c05e32226?auto=format&fit=crop&w=760&h=520&q=72'],
+        ['Casas', 'https://images.unsplash.com/photo-1706164971302-e30c0640cc3b?auto=format&fit=crop&w=760&h=520&q=72'],
+        ['Coberturas', 'https://images.unsplash.com/photo-1757924330358-a48d65664dac?auto=format&fit=crop&w=760&h=520&q=72'],
+        ['Condomínios', 'https://images.unsplash.com/photo-1775112077888-8fa36e9bbc51?auto=format&fit=crop&w=760&h=520&q=72']
+      ]
+    }
+  },
+  {
     id: 0, status: 'breve',
     name: 'Nox Bijoux',
     category: 'E-commerce', type: 'Loja virtual', location: 'Em breve no ar',
