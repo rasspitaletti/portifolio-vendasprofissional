@@ -29,7 +29,7 @@ const CONFIG = {
    ========================================================= */
 const projects = [
   {
-    id: 104, status: 'real',
+       id: 104, status: 'real',
     name: 'Castilho Imóveis',
     category: 'Imobiliário', type: 'Site de corretor', location: 'Araçariguama — SP',
     description: 'Site para corretor de imóveis em Araçariguama: busca por bairro, condomínio e faixa de preço, páginas com fotos de cada imóvel — de casas em condomínio a chácaras — e contato direto pelo WhatsApp.',
@@ -81,6 +81,7 @@ const projects = [
     }
   },
   {
+
     id: 102, status: 'real',
     name: 'Prime Imóveis',
     category: 'Imobiliário', type: 'Site de imobiliária', location: 'São Paulo — SP',
